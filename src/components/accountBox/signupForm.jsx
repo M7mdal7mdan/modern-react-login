@@ -9,8 +9,12 @@ import {
 } from "./common";
 import { Marginer } from "../marginer";
 import { AccountContext } from "./accountContext";
+// import React, { useState } from "react";
 
 export function SignupForm(props) {
+  // const [image, setImage] = useState({
+  //   civilId: "",
+  // });
   const { switchToSignin } = useContext(AccountContext);
 
   return (
